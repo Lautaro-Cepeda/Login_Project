@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;/* 1rem = 10px*/
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px*/
+}
+
+.userinput__container--center {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.fieldset__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fieldset__item {
+    margin: 1rem;
+    padding: .5rem 5rem .5rem 3rem;
+    border-radius: 1rem;
+    border-color: #000000;
+}
+
+.rb__container {
+    flex-direction: row;
+    margin-bottom: .8rem;
+    margin-right: 16.5rem;
+}
+
+.email__input--icon {
+    background: url(../media_folder/email_icon.svg) no-repeat scroll;
+    background-position:.2rem .2rem;
+    background-size: contain;
+    background-size: 2.5rem;
+}
+
+.password_input--icon {
+    background: url(../media_folder/password_icon.svg) no-repeat scroll;
+    background-position: .2rem .2rem;
+    background-size: contain;
+    background-size: 2.5rem;
+}
+
+.fieldset__button {
+    border-radius: 1rem;
+    border-color: #000000;
+    padding: .3rem 1rem;
+}
